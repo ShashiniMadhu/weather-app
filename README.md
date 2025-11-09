@@ -1,19 +1,6 @@
-# ☀️ Weather App 
+# ☀️ SkyWatch 
 
 A full-stack weather application with Auth0 authentication, built with React, TypeScript, Node.js, and Express.
-
-## 📋 Table of Contents
-
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Running the Application](#running-the-application)
-- [Testing](#testing)
-- [Project Structure](#project-structure)
-- [API Endpoints](#api-endpoints)
-- [Screenshots](#screenshots)
 
 ## ✨ Features
 
@@ -260,7 +247,9 @@ curl -H "Authorization: Bearer YOUR_JWT_TOKEN" http://localhost:5000/api/weather
 ## 📸 Screenshots
 
 ### Login Page
-![Login Page](assetss/login-page1.png)
+![Login Page](screenshots/login-page1.png)
+![Login Page](screenshots/login-page2.png)
+
 
 ### Weather Dashboard - Desktop View
 ![Dashboard Desktop](screenshots/dashboard-desktop.png)
@@ -268,38 +257,12 @@ curl -H "Authorization: Bearer YOUR_JWT_TOKEN" http://localhost:5000/api/weather
 ### Weather Dashboard - Mobile View
 ![Dashboard Mobile](screenshots/dashboard-mobile.png)
 
-## 🎯 Assignment Requirements Fulfilled
-
-- ✅ Reads city codes from JSON file
-- ✅ Fetches weather data from OpenWeatherMap API
-- ✅ Displays city name, weather condition, and temperature
-- ✅ Implements 5-minute data caching
-- ✅ Auth0 authentication integration
-- ✅ Login and logout functionality
-- ✅ Multi-Factor Authentication (MFA) via email
-- ✅ Public signups disabled
-- ✅ Test user account created
-- ✅ Responsive design (desktop and mobile)
-- ✅ JWT token authorization
-- ✅ Protected API endpoints
-
-## 📝 Notes
-
-- The application uses **metric units (Celsius)** for temperature
-- Weather data is cached for **5 minutes** to optimize API calls
-- The backend limits weather fetching to **20 cities** to avoid rate limiting
-- MFA is required for all users via email verification
-
 ## 👨‍💻 Developer
 
 **Shashini Madhushika**
 
 - GitHub: [@ShashiniMadhu](https://github.com/ShashiniMadhu)
 - Repository: [weather-app](https://github.com/ShashiniMadhu/weather-app)
-
-## 📄 License
-
-This project was created as an assignment for Fidenz Technologies.
 
 ---
 
